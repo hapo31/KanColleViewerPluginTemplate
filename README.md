@@ -8,10 +8,10 @@
 
 ### 自分用メモ
 
-PluginEntry.csのNameプロパティの返す値を変えることでビュワー側に表示される名前が変わる。  
+PluginEntry.csのToolNameプロパティの返す値を変えることでビュワー側に表示される名前が変わる。  
 
-GetToolView()はよく分からないけどサンプルがnullだったのでnullでいいと思う。  
-GetSettingView()は、ViewModelクラスを継承したクラスのDataContextに、MainWindow.xamlで呼ぶモジュールを渡してビューを返す。  
+GetSettingView()はよく分からないけどサンプルがnullだったのでnullでいいと思う。  
+GetToolView()は、ViewModelクラスを継承したクラスのDataContextに、MainWindow.xamlで呼ぶモジュールを渡してビューを返す。  
 
 例  
 
@@ -25,7 +25,7 @@ GetSettingView()は、ViewModelクラスを継承したクラスのDataContext�
 		return new ExampleView { DataContext = this.viewmodel, };
 	}
 
-　　正直自分自身がWPF分かってなさすぎてインスタンスがどう扱われるのかがいまいち分かってない。  
-  勉強すること。  
+正直自分自身がWPF分かってなさすぎてインスタンスがどう扱われるのかがいまいち分かってない。  
+勉強すること。  
 
-  [EOF]  
+[EOF]  
