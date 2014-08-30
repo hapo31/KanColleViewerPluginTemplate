@@ -14,7 +14,7 @@
   GetSettingView()は、ViewModelクラスを継承したクラスのDataContextに、MainWindow.xamlで呼ぶモジュールを渡してビューを返す。
 
   例
-	`
+  `
 	private readonly ExampleViewModel viewmodel = new ExampleViewModel
 	{
 		// args...
